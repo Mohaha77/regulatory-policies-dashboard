@@ -28,8 +28,8 @@ export class AuthService {
     }
 
     const payload: TokenPayload = { id: user.id, username: user.username, role: user.role };
-    const accessToken = jwt.sign(payload, env.jwtSecret, { expiresIn: env.jwtAccessExpiry as string });
-    const refreshToken = jwt.sign(payload, env.jwtRefreshSecret, { expiresIn: env.jwtRefreshExpiry as string });
+    const accessToken = jwt.sign(payload, env.jwtSecret, { expiresIn: env.jwtAccessExpiry });
+    const refreshToken = jwt.sign(payload, env.jwtRefreshSecret, { expiresIn: env.jwtRefreshExpiry });
 
     return {
       accessToken,
@@ -55,8 +55,8 @@ export class AuthService {
       }
 
       const newPayload: TokenPayload = { id: user.id, username: user.username, role: user.role };
-      const accessToken = jwt.sign(newPayload, env.jwtSecret, { expiresIn: env.jwtAccessExpiry as string });
-      const newRefreshToken = jwt.sign(newPayload, env.jwtRefreshSecret, { expiresIn: env.jwtRefreshExpiry as string });
+      const accessToken = jwt.sign(newPayload, env.jwtSecret, { expiresIn: env.jwtAccessExpiry });
+      const newRefreshToken = jwt.sign(newPayload, env.jwtRefreshSecret, { expiresIn: env.jwtRefreshExpiry });
 
       return { accessToken, refreshToken: newRefreshToken };
     } catch {

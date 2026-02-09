@@ -126,7 +126,7 @@ export class ExportService {
 
     const doc = new Document({
       sections: [{
-        properties: { bidi: true },
+        properties: {},
         children: [
           new Paragraph({
             children: [new TextRun({ text: 'My Work Report / تقرير أعمالي', bold: true, size: 32, font: 'Noto Sans Arabic' })],
