@@ -1,0 +1,182 @@
+{
+  "app": {
+    "title": "لوحة السياسات التنظيمية",
+    "shortTitle": "لوحة السياسات"
+  },
+  "nav": {
+    "dashboard": "لوحة المعلومات",
+    "subjects": "جميع المواضيع",
+    "myWork": "أعمالي",
+    "reviewQueue": "قائمة المراجعة",
+    "users": "المستخدمون",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "loginButton": "دخول",
+    "loginError": "اسم المستخدم أو كلمة المرور غير صحيحة",
+    "changePassword": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور"
+  },
+  "subjects": {
+    "title": "المواضيع",
+    "createNew": "إنشاء موضوع",
+    "edit": "تعديل الموضوع",
+    "delete": "حذف الموضوع",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا الموضوع؟",
+    "subjectTitle": "العنوان",
+    "description": "الوصف",
+    "type": "النوع",
+    "priority": "الأولوية",
+    "status": "الحالة",
+    "dueDate": "تاريخ الاستحقاق",
+    "createdBy": "أنشئ بواسطة",
+    "assignees": "المكلفون",
+    "reviewer": "المراجع",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "noSubjects": "لا توجد مواضيع",
+    "filters": "التصفية",
+    "clearFilters": "مسح التصفية",
+    "search": "البحث في المواضيع..."
+  },
+  "types": {
+    "consultation": "استشارة",
+    "review": "مراجعة",
+    "studies": "دراسات",
+    "other": "أعمال أخرى"
+  },
+  "status": {
+    "new": "جديد",
+    "in_progress": "قيد التنفيذ",
+    "under_review": "تحت المراجعة",
+    "approved": "معتمد",
+    "completed": "مكتمل"
+  },
+  "priority": {
+    "low": "منخفضة",
+    "medium": "متوسطة",
+    "high": "عالية",
+    "urgent": "عاجلة"
+  },
+  "roles": {
+    "admin": "مدير النظام",
+    "manager": "مدير",
+    "user": "مستخدم"
+  },
+  "comments": {
+    "title": "التعليقات",
+    "add": "إضافة تعليق",
+    "placeholder": "اكتب تعليقاً...",
+    "noComments": "لا توجد تعليقات",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "attachments": {
+    "title": "المرفقات",
+    "upload": "رفع ملف",
+    "dragDrop": "اسحب وأفلت الملفات هنا، أو انقر للاختيار",
+    "noAttachments": "لا توجد مرفقات",
+    "download": "تحميل",
+    "delete": "حذف"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "noNotifications": "لا توجد إشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "assignment": "تكليف جديد",
+    "statusChange": "تغيير الحالة",
+    "reviewRequest": "طلب مراجعة",
+    "comment": "تعليق جديد"
+  },
+  "users": {
+    "title": "المستخدمون",
+    "createUser": "إنشاء مستخدم",
+    "editUser": "تعديل المستخدم",
+    "displayNameEn": "الاسم (إنجليزي)",
+    "displayNameAr": "الاسم (عربي)",
+    "role": "الدور",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "absent": "غائب",
+    "present": "حاضر",
+    "noUsers": "لا يوجد مستخدمون"
+  },
+  "absence": {
+    "title": "تغطية الغياب",
+    "absentUser": "المستخدم الغائب",
+    "coveringUser": "المستخدم المغطي",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "create": "إنشاء تغطية",
+    "active": "نشطة",
+    "inactive": "غير نشطة"
+  },
+  "dashboard": {
+    "title": "لوحة المعلومات",
+    "totalSubjects": "إجمالي المواضيع",
+    "overdue": "متأخرة",
+    "inProgress": "قيد التنفيذ",
+    "completed": "مكتملة",
+    "workloadDistribution": "توزيع عبء العمل",
+    "statusDistribution": "توزيع الحالات",
+    "typeBreakdown": "تفصيل الأنواع",
+    "recentActivity": "النشاط الأخير"
+  },
+  "reports": {
+    "title": "التقارير",
+    "overview": "نظرة عامة",
+    "workload": "عبء العمل",
+    "performance": "الأداء"
+  },
+  "export": {
+    "title": "تصدير",
+    "excel": "تصدير إلى Excel",
+    "word": "تصدير إلى Word",
+    "myWorkExcel": "أعمالي (Excel)",
+    "myWorkWord": "أعمالي (Word)",
+    "allSubjectsExcel": "جميع المواضيع (Excel)"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "arabic": "العربية",
+    "english": "English",
+    "account": "إعدادات الحساب",
+    "preferences": "التفضيلات",
+    "languageDesc": "اختر لغتك المفضلة",
+    "themeDesc": "اختر الوضع الفاتح أو الداكن",
+    "passwordMismatch": "كلمات المرور غير متطابقة"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "noData": "لا توجد بيانات",
+    "actions": "الإجراءات",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "showing": "عرض",
+    "of": "من",
+    "results": "نتائج",
+    "all": "الكل",
+    "select": "اختر"
+  }
+}

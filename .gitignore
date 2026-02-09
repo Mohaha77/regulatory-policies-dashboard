@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.sqlite
+*.sqlite-journal
+packages/server/data/
+packages/server/uploads/*
+!packages/server/uploads/.gitkeep
+.env
+.env.production
+.env.local
+.claude/
+.playwright-mcp/
+*.png
+nul
+package-lock.json

@@ -1,0 +1,25 @@
+{
+  "name": "regulatory-policies-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/server",
+    "packages/client"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev -w packages/server",
+    "dev:client": "npm run dev -w packages/client",
+    "build": "npm run build -w packages/shared && npm run build -w packages/server && npm run build -w packages/client",
+    "build:shared": "npm run build -w packages/shared",
+    "build:server": "npm run build -w packages/server",
+    "build:client": "npm run build -w packages/client",
+    "seed": "npm run seed -w packages/server",
+    "migrate": "npm run migrate -w packages/server",
+    "start": "cd packages/server && node dist/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
